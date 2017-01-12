@@ -1,0 +1,17 @@
+TinyTurtle.apply(window);
+forward(20);
+right(10);
+right(80);
+forward(20);
+forward(10);
+right(90);
+forward(20);
+right(90);
+forward(25);
+right(150);
+forward(30);
+right(60);
+forward(30);
+right(150);
+forward(50);
+stamp();
