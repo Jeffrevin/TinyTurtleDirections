@@ -1,17 +1,12 @@
 TinyTurtle.apply(window);
-forward(20);
-right(10);
-right(80);
-forward(20);
-forward(10);
-right(90);
-forward(20);
-right(90);
-forward(25);
-right(150);
-forward(30);
-right(60);
-forward(30);
-right(150);
-forward(50);
+var sides = prompt("Please type the number of sides you would like.");
+var sideint = Number(sides);
+function drawAShape(length) {
+  for (var i = 0; i < sideint; i++) {
+    forward(length);
+    var angle = 360/sideint;
+    right(angle);
+  }
+}
+drawAShape(20);
 stamp();
